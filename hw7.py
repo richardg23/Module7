@@ -1,5 +1,8 @@
-rom sortedcontainers import SortedDict
+#!/usr/bin/env python3
 
+from sortedcontainers import SortedDict
+
+#function to display menu
 def print_menu():
     print('1. Print Users')
     print('2. Add a User')
