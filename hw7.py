@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
+#library from "pip3 install sortedcontainers" terminal
 from sortedcontainers import SortedDict
+
 
 #function to display menu
 def print_menu():
@@ -61,4 +63,4 @@ while menu_choice != 5:
     
     # is user enters something strange, show them the menu
     elif menu_choice != 5:
-        print_menu()
+           print_menu()
